@@ -658,7 +658,6 @@ class Api extends Public_Controller
                     $challengeId = $this->api_m->get_challenge_hq($game_id);
                 }
 
-
                 $arr_challenge = $this->api_m->m_challenges_hint($challengeId , $difficulty);
 
                 if (count($arr_challenge) == 0) {
@@ -790,6 +789,14 @@ class Api extends Public_Controller
             $arr_list_challenge = array();
             $challengeId = "";
             $type_challenge = "";
+
+            if(count($list_challenge) == 0){
+                if($diff == CHALLENGE_EASY){
+                    $list_challenge = $this->api_m->m_challenges_info(CHALLENGE_DIFF);
+                }else{
+                    $list_challenge = $this->api_m->m_challenges_info(CHALLENGE_EASY);
+                }
+            }
             //get all challenges info
             foreach ($list_challenge as $arr_challenge) {
                 $result = $this->api_m->m_insert_tempchallenge_diff($access_code, $arr_challenge->Difficulty, $station_id);

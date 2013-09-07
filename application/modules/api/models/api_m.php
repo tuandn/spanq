@@ -733,5 +733,12 @@ class api_m extends MY_Model
         $game = parent::get_by();
         return isset($game->QuestionDifficulty) ? $game->QuestionDifficulty : "";
     }
+    //get smart station for game
+    public function get_smart_station($gameId){
+        $this->_table = 'gameparameters';
+        parent::where("Id", $gameId);
+        $game = parent::get_by();
+        return isset($game->GameSmartWay) ? $game->GameSmartWay : "";
+    }
 
 }

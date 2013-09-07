@@ -4,7 +4,7 @@
     <list default="true" id="521e47e1-d235-403f-8827-ea53fa3da265" name="Default" comment="" />
     <ignored path="spanq.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1378538487990" ignored="false" />
+    <file path="/Dummy.txt" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1378557086523" ignored="false" />
     <file path="/Admin_Controller.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1373386852467" ignored="false" />
     <file path="/group.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1374001168809" ignored="false" />
     <file path="/a.dummy" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1376216351289" ignored="false" />
@@ -29,7 +29,7 @@
     <file path="/login.css" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1371999881080" ignored="false" />
     <file path="/adduser.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1374004766492" ignored="false" />
     <file path="/checkin.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1372004725192" ignored="false" />
-    <file path="/api.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1378546836303" ignored="false" />
+    <file path="/api.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1378558103376" ignored="false" />
     <file path="/station.js" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1374092770547" ignored="false" />
     <file path="/editchallenge.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1374012201734" ignored="false" />
     <file path="/challenge.js" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1374012567468" ignored="false" />
@@ -83,7 +83,7 @@
     <file path="/unicorn.tables.js" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1373992612844" ignored="false" />
     <file path="/editlandmark.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1374008653862" ignored="false" />
     <file path="/demo_table.css" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1374074573261" ignored="false" />
-    <file path="/api_m.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1378546530287" ignored="false" />
+    <file path="/api_m.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1378559190951" ignored="false" />
     <file path="$PROJECT_DIR$/../activities/application/themes/bootstrap/views/layouts/default.html" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1374258724336" ignored="false" />
     <file path="$PROJECT_DIR$/../activities/application/modules/activity/views/new_need.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1374255040801" ignored="false" />
     <file path="/new_need.php" changelist="521e47e1-d235-403f-8827-ea53fa3da265" time="1374255034560" ignored="false" />
@@ -280,25 +280,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="api.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="api.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="665" column="96" selection-start="24623" selection-end="24623" vertical-scroll-proportion="-6.017857">
+            <state line="1060" column="17" selection-start="39209" selection-end="39214" vertical-scroll-proportion="-0.39921722">
               <folding>
                 <element signature="n#Index#0;n#Api#0;n#!!top" expanded="false" />
+                <element signature="n#getstationbyid#0;n#Api#0;n#!!top" expanded="false" />
+                <element signature="e#13612#14423#0" expanded="false" />
+                <element signature="e#14108#14423#0" expanded="false" />
+                <element signature="e#14136#14354#0" expanded="false" />
                 <element signature="n#get_station_detail_by_level_difficulty#0;n#Api#0;n#!!top" expanded="false" />
-                <element signature="e#27692#28503#0" expanded="false" />
-                <element signature="e#28188#28503#0" expanded="false" />
+                <element signature="n#get_question#0;n#Api#0;n#!!top" expanded="false" />
+                <element signature="n#get_challenge_station#0;n#Api#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constants.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/config/constants.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="943" selection-end="1065" vertical-scroll-proportion="0.29118773">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -306,7 +301,7 @@
       <file leaf-file-name="api_m.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/api/models/api_m.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="12" selection-start="2163" selection-end="2163" vertical-scroll-proportion="-2.5535715">
+            <state line="740" column="63" selection-start="22317" selection-end="22317" vertical-scroll-proportion="-72.96774">
               <folding />
             </state>
           </provider>
@@ -342,8 +337,8 @@
         <option value="$PROJECT_DIR$/application/themes/bootstrap/js/start_game.js" />
         <option value="$PROJECT_DIR$/application/modules/startgame/views/startgame.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/modules/api/models/api_m.php" />
         <option value="$PROJECT_DIR$/application/modules/api/controllers/api.php" />
+        <option value="$PROJECT_DIR$/application/modules/api/models/api_m.php" />
       </list>
     </option>
   </component>
@@ -367,7 +362,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -378,109 +373,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spanq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -495,8 +388,8 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -535,14 +428,14 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="1">
@@ -610,7 +503,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77720207" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328152" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2901515" sideWeight="0.39032814" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18863636" sideWeight="0.39032814" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2901515" sideWeight="0.60967183" order="0" side_tool="true" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -755,29 +648,33 @@
         <state line="186" column="28" selection-start="6410" selection-end="6410" vertical-scroll-proportion="-0.036259543" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="27" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.043052837">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/api/models/api_m.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="12" selection-start="2163" selection-end="2163" vertical-scroll-proportion="-2.5535715">
+        <state line="740" column="63" selection-start="22317" selection-end="22317" vertical-scroll-proportion="-72.96774">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="665" column="96" selection-start="24623" selection-end="24623" vertical-scroll-proportion="-6.017857">
+        <state line="1060" column="17" selection-start="39209" selection-end="39214" vertical-scroll-proportion="-0.39921722">
           <folding>
             <element signature="n#Index#0;n#Api#0;n#!!top" expanded="false" />
+            <element signature="n#getstationbyid#0;n#Api#0;n#!!top" expanded="false" />
+            <element signature="e#13612#14423#0" expanded="false" />
+            <element signature="e#14108#14423#0" expanded="false" />
+            <element signature="e#14136#14354#0" expanded="false" />
             <element signature="n#get_station_detail_by_level_difficulty#0;n#Api#0;n#!!top" expanded="false" />
-            <element signature="e#27692#28503#0" expanded="false" />
-            <element signature="e#28188#28503#0" expanded="false" />
+            <element signature="n#get_question#0;n#Api#0;n#!!top" expanded="false" />
+            <element signature="n#get_challenge_station#0;n#Api#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="943" selection-end="1065" vertical-scroll-proportion="0.29118773">
-          <folding />
         </state>
       </provider>
     </entry>

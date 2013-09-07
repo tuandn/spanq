@@ -1,0 +1,1 @@
+var url_ajax = "/spanq/";

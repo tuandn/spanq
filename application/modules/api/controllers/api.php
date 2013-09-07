@@ -786,6 +786,7 @@ class Api extends Public_Controller
         $station = $this->api_m->m_stations(trim($station_id));
         if (count($station) != 0) {
             $list_challenge = $this->api_m->m_challenges_info($diff);
+
             $arr_list_challenge = array();
             $challengeId = "";
             $type_challenge = "";
@@ -799,26 +800,26 @@ class Api extends Public_Controller
             }
             //get all challenges info
             foreach ($list_challenge as $arr_challenge) {
-                $result = $this->api_m->m_insert_tempchallenge_diff($access_code, $arr_challenge->Difficulty, $station_id);
-                if ($result) {
-                    $arr_list_challenge[] = array(
-                        "id" => $arr_challenge->Id,
-                        "description" => $arr_challenge->Description,
-                        "pincode" => $arr_challenge->pincode,
-                        "notes" => $arr_challenge->Notes,
-                        "hint1" => $arr_challenge->Hint1,
-                        "hint2" => $arr_challenge->Hint2,
-                        "type" => $arr_challenge->Type,
-                        "difficulty" => $arr_challenge->Difficulty
-                    );
-                    $challengeId = $arr_challenge->Id;
-                    $type_challenge = $arr_challenge->Type;
-                    //start save data 2013/08/11
-                    $this->save_data($station_id, $access_code, $game_id, $arr_challenge->Id, 0);
-                    //end save data 2013/08/11
-                    $this->api_m->m_update_status_join_game_challenge_status($access_code, $station_id, $arr_challenge->Id, 2);
-                    break;
-                }
+//              $result = $this->api_m->m_insert_tempchallenge_diff($access_code, $arr_challenge->Difficulty, $station_id);
+//              if ($result) {
+                $arr_list_challenge[] = array(
+                    "id" => $arr_challenge->Id,
+                    "description" => $arr_challenge->Description,
+                    "pincode" => $arr_challenge->pincode,
+                    "notes" => $arr_challenge->Notes,
+                    "hint1" => $arr_challenge->Hint1,
+                    "hint2" => $arr_challenge->Hint2,
+                    "type" => $arr_challenge->Type,
+                    "difficulty" => $arr_challenge->Difficulty
+                );
+                $challengeId = $arr_challenge->Id;
+                $type_challenge = $arr_challenge->Type;
+                //start save data 2013/08/11
+                $this->save_data($station_id, $access_code, $game_id, $arr_challenge->Id, 0);
+                //end save data 2013/08/11
+                $this->api_m->m_update_status_join_game_challenge_status($access_code, $station_id, $arr_challenge->Id, 2);
+                break;
+//             }
             }
 
 

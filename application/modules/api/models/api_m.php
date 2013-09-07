@@ -64,8 +64,12 @@ class api_m extends MY_Model
     public function m_challenges_info($difficulty)
     {
         $this->_table = "challenges";
+        parent::select("challenges.Id, challenges.Description, challenges.pincode,
+        challenges.Notes, challenges.Type, challenges.Difficulty, challenges.Hint1,
+        challenges.Hint2, responses.Answer, responses.Status");
         parent::join("responses", "responses.ChallengeId = challenges.Id");
         parent::where("challenges.Difficulty", $difficulty);
+        parent::order_by("Rand()");
         return parent::get_all();
     }
 
